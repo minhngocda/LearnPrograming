@@ -20,5 +20,8 @@ def thirdFunc():
 
 def fourthFunc():
     print("Ngoc once said, \"Your wife always right\" ")
+
+def fifthFunc():
+    fourthFunc()
     
-fourthFunc()
+fifthFunc()
