@@ -1,10 +1,15 @@
-age = input("How old are you?")  
+age = input("How old are you?")
+
+age=int(age)
+if age < 0:
+    print("Not valid")
+    exit()    
 age = str(age)
-if age[-1] == "1":
+if age[-1] == "1" and age != "11" and age != "111" :
     print("Happy " + age + "st Birthday!")
-if age[-1] == "2":
+elif age[-1] == "2":
     print("Happy " + age + "nd Birthday!")     
-if age[-1] == "3":
+elif age[-1] == "3":
     print("Happy " + age + "rd Birthday!")   
 else:
     print("Happy " + age + "th Birthday!")     
