@@ -19,3 +19,7 @@ print(family)
 #to delete item number 3
 del family[3]
 print(family)
+
+popped_family = family.pop()
+print(family)
+print("The last person in our family is " + popped_family)
