@@ -9,5 +9,13 @@ print(family[1].title())
 print(family[-3].upper())
 #to print message from family
 message= "I love my " + family[1].title() + "."
-print(message)
-
+#to replace item number 2 with another one and add 1 more item to the end of the list
+family[2] = 'Fiona'
+family.append('Ducky')
+print(family)
+#to insert new item on 3rd place of the list
+family.insert(3,'Katty')
+print(family)
+#to delete item number 3
+del family[3]
+print(family)
