@@ -4,11 +4,8 @@ print("Thuc don hom nay gom co:")
 
 for a in buffet:
     print(a)
-update_menu = list(buffet)
-update_menu[0]= 'sushi'
-update_menu[1]= 'pizza'
-buffet = tuple(update_menu)
+buf = ('sushi','pizza') + buffet[2:]
 
 print("\nThuc don da thay doi:")
-for a in buffet:
+for a in buf:
     print(a)
